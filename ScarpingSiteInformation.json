@@ -1,0 +1,221 @@
+[
+  {
+    "id": 0,
+    "siteTitle": "Fly Novo Air",
+    "loginLink": "https://secure.flynovoair.com/agents/default.asp",
+    "navigationLink": "https://secure.flynovoair.com/agents/res-history.asp",
+    "uniqueTitle": "Fly Novo Air",
+    "queryCssSelector": "#wrapper table",
+    "navigateGetRequest": false,
+    "popupSwitch": false,
+    "loginInfo": [
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "login",
+        "value": "vqssintl"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "password",
+        "value": "dec2021"
+      },
+      {
+        "htmlTag": "button",
+        "getElementBy": "id",
+        "key": "defaultActionButton",
+        "value": ""
+      }
+    ],
+    "elements": [
+      {
+        "htmlTag": "select",
+        "getElementBy": "name",
+        "key": "date_range",
+        "value": "Date Range"
+      },
+      {
+        "htmlTag": "checkBox",
+        "getElementBy": "name",
+        "key": "chk_display_details",
+        "value": ""
+      },
+      {
+        "htmlTag": "checkBox",
+        "getElementBy": "name",
+        "key": "chk_display_tax_fee_details",
+        "value": ""
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "page_size",
+        "value": "100"
+      }
+
+    ],
+    "actionButtonElements": [
+      {
+        "htmlTag": "button",
+        "getElementBy": "name",
+        "key": "Submit",
+        "value": ""
+      }
+    ],
+    "customProperties": [
+      {
+        "variableName": "StartDate",
+        "htmlTag": "datepicker",
+        "dateFormat": "dd-MMM-yyyy",
+        "getElementBy": "name",
+        "key": "date_from",
+        "value": ""
+      },
+      {
+        "variableName": "EndDate",
+        "htmlTag": "datepicker",
+        "dateFormat": "dd-MMM-yyyy",
+        "getElementBy": "name",
+        "key": "date_to",
+        "value": ""
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "siteTitle": "Zenith",
+    "loginLink": "https://fo-asia.ttinteractive.com/Zenith/FrontOffice/(S(6e505fda73144f0c8c1b82cfc3de8577))/USBangla/TravelAgency/Login",
+    "navigationLink": "https://fo-asia.ttinteractive.com/newui/aerien/recettesco/Facturation_ClientCpt.asp?BoolAffCriteres=&hAction=seek&htypeclient=&NAV=1&Flag=&ID_CaisseVente=&codeagence=10411943&nom_controle=&CdVendeur=&DateEcritureMin={0}&DateEcritureMax={1}&TypeFiltre=0&Id_modePaiement=1&ListID_TypeOrigineDossier=&ListID_TypeEnCaisse=&LstID_Vendeur=&LstID_PointVente=&FiltrageEcritureCompagnie=&BoolAffDetail=True&NbReponseParPage=2000&DisplayTaxes=False&cbDevise=BDT",
+    "uniqueTitle": "Zenith",
+    "queryCssSelector": ".line-body",
+    "navigateGetRequest": true,
+    "popupSwitch": false,
+
+    "loginInfo": [
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "LoginLog",
+        "value": "acon"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "LoginPwd",
+        "value": "BSAcon22"
+      },
+      {
+        "htmlTag": "button",
+        "getElementBy": "name",
+        "key": "Submit1",
+        "value": ""
+      }
+    ],
+    "elements": [],
+    "actionButtonElements": [],
+    "customProperties": [
+      {
+        "variableName": "StartDate",
+        "htmlTag": "datepicker",
+        "dateFormat": "dd/MM/yyyy",
+        "getElementBy": "id",
+        "key": "Text5",
+        "value": ""
+      },
+      {
+        "variableName": "EndDate",
+        "htmlTag": "datepicker",
+        "dateFormat": "dd/MM/yyyy",
+        "getElementBy": "id",
+        "key": "Text6",
+        "value": ""
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "siteTitle": "Airarabia",
+    "loginLink": "https://reservations.airarabia.com/xbe/public/showLogin.action",
+    "navigationLink": "https://reservations.airarabia.com/xbe/private/showAgentTransDetailsReport.action?&hdnAgentCode=ABYDAC725&hdnRptType=DETAIL&hdnMode=VIEW&hdnLive=null&radReportOption=CSV&hdnFromDate={0}&hdnToDate={1}&hdnTransTypes=&radRptNumFormat=US",
+    "uniqueTitle": "Airarabia",
+    "queryCssSelector": "",
+    "navigateGetRequest": true,
+    "popupSwitch": true,
+    "loginInfo": [
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "username_txt",
+        "value": "SATTDAC20"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "j_password",
+        "value": "A@sep2021"
+      },
+
+      {
+        "htmlTag": "captcha",
+        "getElementBy": "name",
+        "key": "captcha_txt",
+        "value": ""
+      },
+
+      {
+        "htmlTag": "button",
+        "getElementBy": "id",
+        "key": "btnLogin",
+        "value": ""
+      }
+    ],
+    "elements": [],
+    "actionButtonElements": [],
+    "customProperties": []
+  },
+  {
+    "id": 4,
+    "siteTitle": "JazeeraAir",
+    "loginLink": "https://booking.jazeeraairways.com/en/search-flight?showLogin=&_ga=2.239256771.1149194010.1639848617-374176164.1639848617",
+    "navigationLink": "https://booking.jazeeraairways.com/en/travel-agent/dashboard",
+    "uniqueTitle": "JazeeraAir",
+    "queryCssSelector": "",
+    "navigateGetRequest": false,
+    "popupSwitch": false,
+
+    "loginInfo": [
+      {
+        "htmlTag": "checkbox",
+        "getElementBy": "id",
+        "key": "executescript",
+        "value": "document.getElementById('agency-login').click();"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "id",
+        "key": "agency-login-user-id",
+        "value": "BDSATTSDAC"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "id",
+        "key": "agency-login-password",
+        "value": "Ashohel7"
+      },
+      {
+        "htmlTag": "button",
+        "getElementBy": "queryselector",
+        "key": "executescript",
+        "value": "document.querySelectorAll('.btn')[3].click();"
+      }
+    ],
+    "elements": [],
+    "actionButtonElements": [],
+    "customProperties": []
+  }
+
+
+]
